@@ -22,7 +22,7 @@ namespace linq
             Console.WriteLine("----------------------------------");
             //Write a program in C# Sharp to find the +ve numbers from a list of numbers using two where conditions in LINQ Query.
             int[] array1 = { 1, -2, 3, -45, 6, -7, 8, -5 };
-            var y = from element in array
+            var y = from element in array1
                     where (element >= 0)
                     select element;
             foreach (var element in y)
